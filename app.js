@@ -4,51 +4,8 @@ const QRPortalWeb = require('@bot-whatsapp/portal')
 const BaileysProvider = require('@bot-whatsapp/provider/baileys')
 const MockAdapter = require('@bot-whatsapp/database/mock')
 
-const flowSecundario = addKeyword(['2', 'siguiente']).addAnswer(['📄 Aquí tenemos el flujo secundario'])
 
-const flowDocs = addKeyword(['doc', 'documentacion', 'documentación']).addAnswer(
-    [
-        '📄 Aquí encontras las documentación recuerda que puedes mejorarla',
-        'https://bot-whatsapp.netlify.app/',
-        '\n*2* Para siguiente paso.',
-    ],
-    null,
-    null,
-    [flowSecundario]
-)
-
-const flowTuto = addKeyword(['tutorial', 'tuto']).addAnswer(
-    [
-        '🙌 Aquí encontras un ejemplo rapido',
-        'https://bot-whatsapp.netlify.app/docs/example/',
-        '\n*2* Para siguiente paso.',
-    ],
-    null,
-    null,
-    [flowSecundario]
-)
-
-const flowGracias = addKeyword(['gracias', 'grac']).addAnswer(
-    [
-        '🚀 Puedes aportar tu granito de arena a este proyecto',
-        '[*opencollective*] https://opencollective.com/bot-whatsapp',
-        '[*buymeacoffee*] https://www.buymeacoffee.com/leifermendez',
-        '[*patreon*] https://www.patreon.com/leifermendez',
-        '\n*2* Para siguiente paso.',
-    ],
-    null,
-    null,
-    [flowSecundario]
-)
-
-const flowDiscord = addKeyword(['discord']).addAnswer(
-    ['🤪 Únete al discord', 'https://link.codigoencasa.com/DISCORD', '\n*2* Para siguiente paso.'],
-    null,
-    null,
-    [flowSecundario]
-)
-
-
+//Variables a utilizar, esto es para el caso dummy, pues una vez conectada con la base de datos ya no es necesario usar estas y usamos axios para la conexión
 
 var nombreBancoCampaña = "Bancoppel";
 var nombre = "Jose";
@@ -71,7 +28,7 @@ const flowPrincipal = addKeyword(['hola', 'ole', 'alo', 'buen dia', 'saludos']) 
     }
     )
 
-const flowDetenerPromociones = addKeyword('detener promociones')
+const flowDetenerPromociones = addKeyword('detener promociones') //En cualquier momento que manden detener promociones esto funciona
     .addAnswer('Lamento escuchar eso, esta interacción será cerrada, le invitamos a reanudar sus pagos. Excelente día.',
     null,
     null)
@@ -84,7 +41,7 @@ const flowCuentameMas = addKeyword('Cuentame más')
     )
 
 const flowPago = addKeyword(['si', 'dime mas']) //Estas son las respuestas más comunes a la pregunta de que si quieren o no la oferta
-    .addAnswer('Excelente! Estoy emocionado de que quieras aprovechar esta promoción. Te enviaré una carta convenio por este mismo medio para que puedas realizar el pago. Por favor, espera un momento mientras genero la carta convenio.',
+    .addAnswer('Excelente! Felicidades por aprovechar esta promoción. Te enviaré una carta convenio por este mismo medio para que puedas realizar el pago. Por favor, espera un momento mientras genero la carta convenio.',
     null,
     null)
 
@@ -104,3 +61,8 @@ const main = async () => {
 
 main()
 
+
+/**
+ * Queda pendiente el flow de rectificación, este básicamente es el caso en que lo que introduzcan no sea lo que dicen
+ * 
+ */
