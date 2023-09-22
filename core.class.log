@@ -1,0 +1,346 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '5219514649432@s.whatsapp.net',
+    fromMe: false,
+    id: 'CD6F62C63597861D59E1C213DE40CBF5',
+    participant: undefined
+  },
+  messageTimestamp: 1695361517,
+  pushName: '.',
+  broadcast: false,
+  messageStubType: 2,
+  messageStubParameters: [ 'Message absent from node' ],
+  body: undefined,
+  from: '5219514649432'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5219514649432@s.whatsapp.net',
+    fromMe: false,
+    id: 'CD6F62C63597861D59E1C213DE40CBF5',
+    participant: undefined
+  },
+  messageTimestamp: 1695361518,
+  pushName: '.',
+  broadcast: false,
+  message: Message {
+    conversation: 'Hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Hola',
+  from: '5219514649432'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5219514649432@s.whatsapp.net',
+    fromMe: false,
+    id: 'CD6F62C63597861D59E1C213DE40CBF5',
+    participant: undefined
+  },
+  messageTimestamp: 1695361518,
+  pushName: '.',
+  broadcast: false,
+  message: Message {
+    conversation: 'Hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Hola',
+  from: '5219514649432'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_3fd07964-05df-4415-942b-bd3d46023adf',
+  keyword: 'key_db6e7bd1-8a91-4ad7-baf7-c3663fa9a278',
+  answer: '🙌 Hola soy su asistente de Bancoppel, solo por hoy tenemos un increible descuento para tu cuenta BanCoppel ¿Te gustaría conocer más?',
+  options: {
+    media: null,
+    buttons: [ [Object], [Object] ],
+    capture: false,
+    child: null,
+    delay: 0,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '677b28c313052748d7e7f25109a61318'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_3fd07964-05df-4415-942b-bd3d46023adf',
+  keyword: 'key_db6e7bd1-8a91-4ad7-baf7-c3663fa9a278',
+  answer: '🙌 Hola soy su asistente de Bancoppel, solo por hoy tenemos un increible descuento para tu cuenta BanCoppel ¿Te gustaría conocer más?',
+  options: {
+    media: null,
+    buttons: [ [Object], [Object] ],
+    capture: false,
+    child: null,
+    delay: 0,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '677b28c313052748d7e7f25109a61318'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5219514649432@s.whatsapp.net',
+    fromMe: false,
+    id: 'DEBE070180F8AE70E48AFEB3E6ED3CF0',
+    participant: undefined
+  },
+  messageTimestamp: 1695361521,
+  pushName: '.',
+  broadcast: false,
+  message: Message {
+    conversation: 'Hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  status: 4,
+  body: 'Hola',
+  from: '5219514649432'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_3fd07964-05df-4415-942b-bd3d46023adf',
+  keyword: 'key_db6e7bd1-8a91-4ad7-baf7-c3663fa9a278',
+  answer: '🙌 Hola soy su asistente de Bancoppel, solo por hoy tenemos un increible descuento para tu cuenta BanCoppel ¿Te gustaría conocer más?',
+  options: {
+    media: null,
+    buttons: [ [Object], [Object] ],
+    capture: false,
+    child: null,
+    delay: 0,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '677b28c313052748d7e7f25109a61318'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5219514649432@s.whatsapp.net',
+    fromMe: false,
+    id: 'AD9DB9F9A522C416B043182FA3B1B7F2',
+    participant: undefined
+  },
+  messageTimestamp: 1695361535,
+  pushName: '.',
+  broadcast: false,
+  message: Message {
+    conversation: 'No',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'No',
+  from: '5219514649432'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5219514649432@s.whatsapp.net',
+    fromMe: false,
+    id: '279D512D39368ADD2F8AA589BE7438C2',
+    participant: undefined
+  },
+  messageTimestamp: 1695361542,
+  pushName: '.',
+  broadcast: false,
+  message: Message {
+    conversation: 'Es un chat bot automático?',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Es un chat bot automático?',
+  from: '5219514649432'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5219514649432@s.whatsapp.net',
+    fromMe: false,
+    id: '9B6CB4F4BB20B8B6D610F1A11606E78B',
+    participant: undefined
+  },
+  messageTimestamp: 1695361544,
+  pushName: '.',
+  broadcast: false,
+  message: Message {
+    conversation: 'O k',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'O k',
+  from: '5219514649432'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5219514649432@s.whatsapp.net',
+    fromMe: false,
+    id: '4D49F4B706C863BCFEE19DD14A8D8D23',
+    participant: undefined
+  },
+  messageTimestamp: 1695361559,
+  pushName: '.',
+  broadcast: false,
+  message: Message {
+    conversation: 'Para Whatsapp business?',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  status: 4,
+  body: 'Para Whatsapp business?',
+  from: '5219514649432'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5219514649432@s.whatsapp.net',
+    fromMe: false,
+    id: '456860238D91CADE7C2F1AC4329432DF',
+    participant: undefined
+  },
+  messageTimestamp: 1695361562,
+  pushName: '.',
+  broadcast: false,
+  message: Message {
+    conversation: 'Yo lo se hacer',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Yo lo se hacer',
+  from: '5219514649432'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5219514649432@s.whatsapp.net',
+    fromMe: false,
+    id: '33E66A3CCACB391AD3679BBAD1D2867B',
+    participant: undefined
+  },
+  messageTimestamp: 1695361565,
+  pushName: '.',
+  broadcast: false,
+  message: Message {
+    conversation: 'Contratame',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Contratame',
+  from: '5219514649432'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5219514649432@s.whatsapp.net',
+    fromMe: false,
+    id: '590C40E4AE8FEBFFA7C2EAC40F76EC34',
+    participant: undefined
+  },
+  messageTimestamp: 1695361567,
+  pushName: '.',
+  broadcast: false,
+  message: Message {
+    stickerMessage: StickerMessage {
+      url: 'https://mmg.whatsapp.net/v/t62.15575-24/20128915_293676723407714_8183668785740559503_n.enc?ccb=11-4&oh=01_AdS9Nex8SFbE9dfggY-2hD-ij_VcUXkJtgD7fa6RJnWkEw&oe=6534B0FA&_nc_sid=000000&mms3=true',
+      fileSha256: [Uint8Array],
+      fileEncSha256: [Uint8Array],
+      mediaKey: [Uint8Array],
+      mimetype: 'image/webp',
+      height: 64,
+      width: 64,
+      directPath: '/v/t62.15575-24/20128915_293676723407714_8183668785740559503_n.enc?ccb=11-4&oh=01_AdS9Nex8SFbE9dfggY-2hD-ij_VcUXkJtgD7fa6RJnWkEw&oe=6534B0FA&_nc_sid=000000',
+      fileLength: [Long],
+      mediaKeyTimestamp: [Long],
+      firstFrameLength: 3216,
+      firstFrameSidecar: [Uint8Array],
+      isAnimated: true,
+      stickerSentTs: [Long],
+      isAvatar: false
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '',
+  from: '5219514649432'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5219514649432@s.whatsapp.net',
+    fromMe: false,
+    id: '8D5159ACB334C9233DA5E52DE2CEB37C',
+    participant: undefined
+  },
+  messageTimestamp: 1695361583,
+  pushName: '.',
+  broadcast: false,
+  message: Message {
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    },
+    reactionMessage: ReactionMessage {
+      key: [MessageKey],
+      text: '😢',
+      senderTimestampMs: [Long]
+    }
+  },
+  status: 4,
+  body: '',
+  from: '5219514649432'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5219514649432@s.whatsapp.net',
+    fromMe: false,
+    id: '7236F0BE7599DA0E0BF68B5FBD48D464',
+    participant: undefined
+  },
+  messageTimestamp: 1695361586,
+  pushName: '.',
+  broadcast: false,
+  message: Message {
+    conversation: 'Sisisisi',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Sisisisi',
+  from: '5219514649432'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5219514649432@s.whatsapp.net',
+    fromMe: false,
+    id: 'D37A4B9DAA6C3F409AA71BE5736A5946',
+    participant: undefined
+  },
+  messageTimestamp: 1695361602,
+  pushName: '.',
+  broadcast: false,
+  message: Message {
+    conversation: 'Puro python',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Puro python',
+  from: '5219514649432'
+}
